@@ -1,5 +1,5 @@
 # Boshoff
-# advent of code 2a
+# advent of code 2020 - 2a
 
 file = open('puzzle_input_2.txt','r')
 
