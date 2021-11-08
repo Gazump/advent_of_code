@@ -1,3 +1,4 @@
+# NMB
 # AoC 2018
 # Problem 1b
 lines = open('puzzle_input_1.txt','r').read().splitlines()
