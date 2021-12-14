@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 05a
 
-lines = open('input_5.txt','r').read().splitlines()
+lines = open('input_05.txt','r').read().splitlines()
 grid = [[0]*1000 for i in range(1000)]
 
 for line in lines:

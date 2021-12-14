@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 07b
 
-nums = sorted([int(x) for x in open('input_7.txt','r').read().split(',')])
+nums = sorted([int(x) for x in open('input_07.txt','r').read().split(',')])
 
 small_i = -1
 smallest = 9999999999999

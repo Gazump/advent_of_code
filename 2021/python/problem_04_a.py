@@ -22,7 +22,7 @@ def checkWin(board):
 
 # MAIN
 
-lines = open('input_4.txt','r').read().splitlines()
+lines = open('input_04.txt','r').read().splitlines()
 nums = [int(n) for n in lines[0].split(',')]
 
 boards = []

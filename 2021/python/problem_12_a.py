@@ -25,8 +25,3 @@ for line in lines:
     graph[tokens[1]].add(tokens[0])
 
 print(count_paths(graph, 'start', ['start']))
-
-
-        
-
-

@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 03a
 
-lines = open('input_3.txt','r').read().splitlines()
+lines = open('input_03.txt','r').read().splitlines()
 g, e = '',''    
 for i in range(len(lines[0])):
     c0, c1 = 0, 0

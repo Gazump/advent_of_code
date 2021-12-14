@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 08b
 
-lines = open('input_8.txt','r').read().splitlines()
+lines = open('input_08.txt','r').read().splitlines()
 total = 0
 for line in lines:
     # count occurances of lines

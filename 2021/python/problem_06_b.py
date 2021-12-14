@@ -4,7 +4,7 @@
 
 from collections import Counter
 
-nums = [int(x) for x in open('input_6.txt','r').read().split(',')]
+nums = [int(x) for x in open('input_06.txt','r').read().split(',')]
 
 ages = Counter()
 for n in nums:

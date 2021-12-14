@@ -20,7 +20,7 @@ def checkWin(board):
             return [True,[board[i][c][0] for i in range(5)]]
     return [False,[]]
 
-lines = open('input_4.txt','r').read().splitlines()
+lines = open('input_04.txt','r').read().splitlines()
 nums = [int(n) for n in lines[0].split(',')]
 
 boards = []

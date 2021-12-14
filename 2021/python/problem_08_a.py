@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 08a
 
-lines = open('input_8.txt','r').read().splitlines()
+lines = open('input_08.txt','r').read().splitlines()
 
 c = 0
 for line in lines:

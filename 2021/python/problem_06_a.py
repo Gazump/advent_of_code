@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 06a
 
-nums = [int(x) for x in open('input_6.txt','r').read().split(',')]
+nums = [int(x) for x in open('input_06.txt','r').read().split(',')]
 
 for day in range(80):
     new = 0

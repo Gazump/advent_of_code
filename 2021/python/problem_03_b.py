@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 03b
 
-lines = open('input_3.txt','r').read().splitlines()
+lines = open('input_03.txt','r').read().splitlines()
 
 def getOx(nums, j):
     c0,c1 = 0, 0

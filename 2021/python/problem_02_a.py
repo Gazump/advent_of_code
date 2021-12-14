@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 02a
 
-lines = open('input_2.txt','r').read().splitlines()
+lines = open('input_02.txt','r').read().splitlines()
 h, d = 0, 0
 for line in lines:
     tokens = line.split(" ")

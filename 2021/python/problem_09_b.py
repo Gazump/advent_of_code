@@ -2,7 +2,7 @@
 # Advent of Code 2021
 # Problem 09b
 
-lines = open('input_9.txt','r').read().splitlines()
+lines = open('input_09.txt','r').read().splitlines()
 grid = []
 basins = []
 for line in lines:
