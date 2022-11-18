@@ -7,7 +7,7 @@ const part1 = (rawInput: string) => {
 
   const output = 0;
 
-  return output.toString();
+  return;
 };
 
 const part2 = (rawInput: string) => {
@@ -15,7 +15,7 @@ const part2 = (rawInput: string) => {
 
   const output = 0;
 
-  return output.toString();
+  return;
 };
 
 run({
