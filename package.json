@@ -1,0 +1,28 @@
+{
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "description": "My quickest to code solutions which are definitely not optimized. Some silly code here and there just to try and do it in a different way and show some cool python stuff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gazump/advent_of_code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gazump/advent_of_code/issues"
+  },
+  "homepage": "https://github.com/Gazump/advent_of_code#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
