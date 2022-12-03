@@ -19,9 +19,8 @@ const part1 = (rawInput: string) => {
 
   input.forEach((line) => {
     const compartments = { one:line.slice(0, line.length / 2), two: line.slice(line.length / 2)};    
-    const error = getCommonCharacter(compartments.one, compartments.two);    
-    const priority = getPriority(error!);    
-    sum += priority;    
+    const error = getCommonCharacter(compartments.one, compartments.two); 
+    sum += getPriority(error!);
   });
 
   return sum.toString();
