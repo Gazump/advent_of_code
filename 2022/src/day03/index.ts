@@ -32,8 +32,8 @@ const part2 = (rawInput: string) => {
   let sum = 0;
 
   for (let i = 0; i < input.length; i += 3) {
-    const compartments = { one: input[i], two: input[i+1], three: input[i+2] };
-    const error = getCommonCharacter(compartments.one, compartments.two, compartments.three);
+    const rucksacks = { one: input[i], two: input[i+1], three: input[i+2] };
+    const error = getCommonCharacter(rucksacks.one, rucksacks.two, rucksacks.three);
     sum += getPriority(error!);
   }
   
